@@ -29,8 +29,8 @@ public class ApplicaitonTest {
 
     @Test
     public void testB(@Autowired B b) {
-        Assertions.assertNotNull(b);
         Assertions.assertNotNull(A.HIDDEN_EFFECT);
+        Assertions.assertNotNull(b);
     }
 
     @Test
