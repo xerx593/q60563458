@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
  *
  * @author xerx
  */
-@Component
+@Component(/*"explicit name"*/)
 public class A {
 
     public String foo() {
