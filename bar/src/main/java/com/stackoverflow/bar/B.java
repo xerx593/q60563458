@@ -11,6 +11,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class B {
 
+    public B() {
+        System.out.println("B initialized.");
+    }
+
     public String bar() {
         return "B.bar";
     }

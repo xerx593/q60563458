@@ -9,7 +9,10 @@ import org.springframework.stereotype.Component;
 @Component(/*"explicit name"*/)
 public class A {
 
-    public String foo() {
-        return "A.foo";
+    public static Object HIDDEN_EFFECT = null;
+
+    public A() {
+        System.out.println("A initiliazed.");
+        A.HIDDEN_EFFECT = new Object();
     }
 }
