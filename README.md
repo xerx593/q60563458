@@ -6,7 +6,10 @@ Answer code for https://stackoverflow.com/questions/60563458/spring-external-lib
   * foo:
   Containing `A` bean.
   * bar:
-  Containig `B` bean (and variants), depending on `A`.
+  Containig:
+    * `B` bean (and variants), depending on `A`.
+    * SpringBootApplication
+    * Tests
 ## Compile, Test & Install
 
-    `mvn clean install`
+`mvn clean install` on parent project.
