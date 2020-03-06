@@ -2,21 +2,16 @@ package com.stackoverflow.bar;
 
 import com.stackoverflow.foo.A;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
-import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
-import org.springframework.test.annotation.DirtiesContext;
 
 /**
  *
  * @author xerx
  */
 @SpringBootTest
-@TestMethodOrder(value = OrderAnnotation.class)
 public class ApplicaitonTest {
 
     @Autowired
