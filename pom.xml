@@ -16,5 +16,6 @@
     <modules>
         <module>foo</module>
         <module>bar</module>
+        <module>baz</module>
     </modules>
 </project>
